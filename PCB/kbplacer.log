@@ -1,0 +1,653 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.13
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Jan 27 2025, 07:08:36) [MSC v.1942 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 9.0.1 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:586]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\3maar\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:362]: Set key 1U distance: 19050000/19050000
+[key_placer.py:117]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:124]: Switches by nets: {}
+[key_placer.py:128]: Diodes by switch: {'SW97': ['D106', 'D105', 'D104', 'D103', 'D102', 'D101', 'D100', 'D97'], 'SW90': ['D90'], 'SW75': ['D89'], 'SW60': ['D88'], 'SW45': ['D87'], 'SW30': ['D86'], 'SW15': ['D85'], 'SW89': ['D84'], 'SW74': ['D83'], 'SW59': ['D82'], 'SW44': ['D81'], 'SW29': ['D80'], 'SW14': ['D79'], 'SW87': ['D78'], 'SW72': ['D77'], 'SW88': ['D76'], 'SW73': ['D75'], 'SW58': ['D74'], 'SW43': ['D73'], 'SW28': ['D72'], 'SW13': ['D71'], 'SW57': ['D70'], 'SW42': ['D69'], 'SW27': ['D68'], 'SW12': ['D67'], 'SW86': ['D66'], 'SW71': ['D65'], 'SW56': ['D64'], 'SW41': ['D63'], 'SW26': ['D62'], 'SW11': ['D61'], 'SW85': ['D60'], 'SW70': ['D59'], 'SW55': ['D58'], 'SW40': ['D57'], 'SW25': ['D56'], 'SW10': ['D55'], 'SW84': ['D54'], 'SW69': ['D53'], 'SW54': ['D52'], 'SW39': ['D51'], 'SW24': ['D50'], 'SW9': ['D49'], 'SW83': ['D48'], 'SW68': ['D47'], 'SW53': ['D46'], 'SW38': ['D45'], 'SW23': ['D44'], 'SW8': ['D43'], 'SW82': ['D42'], 'SW67': ['D41'], 'SW52': ['D40'], 'SW37': ['D39'], 'SW22': ['D38'], 'SW7': ['D37'], 'SW81': ['D36'], 'SW66': ['D35'], 'SW51': ['D34'], 'SW36': ['D33'], 'SW21': ['D32'], 'SW6': ['D31'], 'SW80': ['D30'], 'SW65': ['D29'], 'SW50': ['D28'], 'SW35': ['D27'], 'SW20': ['D26'], 'SW5': ['D25'], 'SW79': ['D24'], 'SW64': ['D23'], 'SW49': ['D22'], 'SW34': ['D21'], 'SW19': ['D20'], 'SW4': ['D19'], 'SW78': ['D18'], 'SW63': ['D17'], 'SW48': ['D16'], 'SW33': ['D15'], 'SW18': ['D14'], 'SW3': ['D13'], 'SW77': ['D12'], 'SW62': ['D11'], 'SW47': ['D10'], 'SW32': ['D9'], 'SW17': ['D8'], 'SW2': ['D7'], 'SW76': ['D6'], 'SW61': ['D5'], 'SW46': ['D4'], 'SW31': ['D3'], 'SW16': ['D2'], 'SW1': ['D1']}
+[board_modifier.py:64]: Searching for SW1 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[key_placer.py:558]: Looking for connection template between SW1 and other elements
+[board_modifier.py:98]: Getting SW1 footprint position: (-72310000, -134000000)
+[key_placer.py:602]: Got connection template: 
+[key_placer.py:117]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+[key_placer.py:124]: Switches by nets: {}
+[key_placer.py:128]: Diodes by switch: {'SW97': ['D106', 'D105', 'D104', 'D103', 'D102', 'D101', 'D100', 'D97'], 'SW90': ['D90'], 'SW75': ['D89'], 'SW60': ['D88'], 'SW45': ['D87'], 'SW30': ['D86'], 'SW15': ['D85'], 'SW89': ['D84'], 'SW74': ['D83'], 'SW59': ['D82'], 'SW44': ['D81'], 'SW29': ['D80'], 'SW14': ['D79'], 'SW87': ['D78'], 'SW72': ['D77'], 'SW88': ['D76'], 'SW73': ['D75'], 'SW58': ['D74'], 'SW43': ['D73'], 'SW28': ['D72'], 'SW13': ['D71'], 'SW57': ['D70'], 'SW42': ['D69'], 'SW27': ['D68'], 'SW12': ['D67'], 'SW86': ['D66'], 'SW71': ['D65'], 'SW56': ['D64'], 'SW41': ['D63'], 'SW26': ['D62'], 'SW11': ['D61'], 'SW85': ['D60'], 'SW70': ['D59'], 'SW55': ['D58'], 'SW40': ['D57'], 'SW25': ['D56'], 'SW10': ['D55'], 'SW84': ['D54'], 'SW69': ['D53'], 'SW54': ['D52'], 'SW39': ['D51'], 'SW24': ['D50'], 'SW9': ['D49'], 'SW83': ['D48'], 'SW68': ['D47'], 'SW53': ['D46'], 'SW38': ['D45'], 'SW23': ['D44'], 'SW8': ['D43'], 'SW82': ['D42'], 'SW67': ['D41'], 'SW52': ['D40'], 'SW37': ['D39'], 'SW22': ['D38'], 'SW7': ['D37'], 'SW81': ['D36'], 'SW66': ['D35'], 'SW51': ['D34'], 'SW36': ['D33'], 'SW21': ['D32'], 'SW6': ['D31'], 'SW80': ['D30'], 'SW65': ['D29'], 'SW50': ['D28'], 'SW35': ['D27'], 'SW20': ['D26'], 'SW5': ['D25'], 'SW79': ['D24'], 'SW64': ['D23'], 'SW49': ['D22'], 'SW34': ['D21'], 'SW19': ['D20'], 'SW4': ['D19'], 'SW78': ['D18'], 'SW63': ['D17'], 'SW48': ['D16'], 'SW33': ['D15'], 'SW18': ['D14'], 'SW3': ['D13'], 'SW77': ['D12'], 'SW62': ['D11'], 'SW47': ['D10'], 'SW32': ['D9'], 'SW17': ['D8'], 'SW2': ['D7'], 'SW76': ['D6'], 'SW61': ['D5'], 'SW46': ['D4'], 'SW31': ['D3'], 'SW16': ['D2'], 'SW1': ['D1']}
+[board_modifier.py:98]: Getting SW1 footprint position: (-72310000, -134000000)
+[board_modifier.py:98]: Getting D1 footprint position: (-80820000, 1120000)
+[key_placer.py:900]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-8.51, y=135.12, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
+[kle_serial.py:897]: User layout: [[{'a': 6}, 'Esc', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', {'a': 5}, 'PrtSc\nNmLk', 'Pause\nScrLk', 'Delete\nInsert'], [{'a': 4}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'a': 6, 'w': 2}, 'Backspace', 'Home'], [{'a': 4, 'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\', {'a': 6}, 'Page Up'], [{'a': 4, 'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'a': 6, 'w': 2.25}, 'Enter', 'Page Down'], [{'w': 2.25}, 'Shift', {'a': 4}, 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'a': 6, 'w': 1.75}, 'Shift', {'a': 7}, '↑', {'a': 6}, 'End'], [{'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 6}, 'Alt', 'Fn', 'Ctrl', {'a': 7}, '←', '↓', '→']]
+[key_placer.py:662]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting SW13 footprint position: (266700000, 38100000)
+[board_modifier.py:85]: Setting SW14 footprint position: (285750000, 38100000)
+[board_modifier.py:85]: Setting SW15 footprint position: (304800000, 38100000)
+[board_modifier.py:85]: Setting SW16 footprint position: (323850000, 38100000)
+[board_modifier.py:85]: Setting SW17 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting SW18 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting SW19 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting SW20 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting SW21 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting SW22 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting SW23 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting SW24 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting SW25 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting SW26 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting SW27 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting SW28 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting SW29 footprint position: (266700000, 57150000)
+[board_modifier.py:85]: Setting SW30 footprint position: (295275000, 57150000)
+[board_modifier.py:85]: Setting SW31 footprint position: (323850000, 57150000)
+[board_modifier.py:85]: Setting SW32 footprint position: (42862500, 76200000)
+[board_modifier.py:85]: Setting SW33 footprint position: (66675000, 76200000)
+[board_modifier.py:85]: Setting SW34 footprint position: (85725000, 76200000)
+[board_modifier.py:85]: Setting SW35 footprint position: (104775000, 76200000)
+[board_modifier.py:85]: Setting SW36 footprint position: (123825000, 76200000)
+[board_modifier.py:85]: Setting SW37 footprint position: (142875000, 76200000)
+[board_modifier.py:85]: Setting SW38 footprint position: (161925000, 76200000)
+[board_modifier.py:85]: Setting SW39 footprint position: (180975000, 76200000)
+[board_modifier.py:85]: Setting SW40 footprint position: (200025000, 76200000)
+[board_modifier.py:85]: Setting SW41 footprint position: (219075000, 76200000)
+[board_modifier.py:85]: Setting SW42 footprint position: (238125000, 76200000)
+[board_modifier.py:85]: Setting SW43 footprint position: (257175000, 76200000)
+[board_modifier.py:85]: Setting SW44 footprint position: (276225000, 76200000)
+[board_modifier.py:85]: Setting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:85]: Setting SW46 footprint position: (323850000, 76200000)
+[board_modifier.py:85]: Setting SW47 footprint position: (45243750, 95250000)
+[board_modifier.py:85]: Setting SW48 footprint position: (71437500, 95250000)
+[board_modifier.py:85]: Setting SW49 footprint position: (90487500, 95250000)
+[board_modifier.py:85]: Setting SW50 footprint position: (109537500, 95250000)
+[board_modifier.py:85]: Setting SW51 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting SW52 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting SW53 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting SW54 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting SW55 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting SW56 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting SW57 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting SW58 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting SW59 footprint position: (292893750, 95250000)
+[board_modifier.py:85]: Setting SW60 footprint position: (323850000, 95250000)
+[board_modifier.py:85]: Setting SW61 footprint position: (50006250, 114300000)
+[board_modifier.py:85]: Setting SW62 footprint position: (80962500, 114300000)
+[board_modifier.py:85]: Setting SW63 footprint position: (100012500, 114300000)
+[board_modifier.py:85]: Setting SW64 footprint position: (119062500, 114300000)
+[board_modifier.py:85]: Setting SW65 footprint position: (138112500, 114300000)
+[board_modifier.py:85]: Setting SW66 footprint position: (157162500, 114300000)
+[board_modifier.py:85]: Setting SW67 footprint position: (176212500, 114300000)
+[board_modifier.py:85]: Setting SW68 footprint position: (195262500, 114300000)
+[board_modifier.py:85]: Setting SW69 footprint position: (214312500, 114300000)
+[board_modifier.py:85]: Setting SW70 footprint position: (233362500, 114300000)
+[board_modifier.py:85]: Setting SW71 footprint position: (252412500, 114300000)
+[board_modifier.py:85]: Setting SW72 footprint position: (278606250, 114300000)
+[board_modifier.py:85]: Setting SW73 footprint position: (304800000, 114300000)
+[board_modifier.py:85]: Setting SW74 footprint position: (323850000, 114300000)
+[board_modifier.py:85]: Setting SW75 footprint position: (40481250, 133350000)
+[board_modifier.py:85]: Setting SW76 footprint position: (64293750, 133350000)
+[board_modifier.py:85]: Setting SW77 footprint position: (88106250, 133350000)
+[board_modifier.py:85]: Setting SW78 footprint position: (159543750, 133350000)
+[board_modifier.py:85]: Setting SW79 footprint position: (228600000, 133350000)
+[board_modifier.py:85]: Setting SW80 footprint position: (247650000, 133350000)
+[board_modifier.py:85]: Setting SW81 footprint position: (266700000, 133350000)
+[board_modifier.py:85]: Setting SW82 footprint position: (285750000, 133350000)
+[board_modifier.py:85]: Setting SW83 footprint position: (304800000, 133350000)
+[board_modifier.py:85]: Setting SW84 footprint position: (323850000, 133350000)
+[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=-8.51, y=135.12, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (29590000, 173220000)
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting D7 footprint position: (48640000, 173220000)
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting D13 footprint position: (67690000, 173220000)
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting D19 footprint position: (86740000, 173220000)
+[board_modifier.py:98]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:85]: Setting D25 footprint position: (105790000, 173220000)
+[board_modifier.py:98]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:85]: Setting D31 footprint position: (124840000, 173220000)
+[board_modifier.py:98]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:85]: Setting D37 footprint position: (143890000, 173220000)
+[board_modifier.py:98]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:85]: Setting D43 footprint position: (162940000, 173220000)
+[board_modifier.py:98]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:85]: Setting D49 footprint position: (181990000, 173220000)
+[board_modifier.py:98]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:85]: Setting D55 footprint position: (201040000, 173220000)
+[board_modifier.py:98]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:85]: Setting D61 footprint position: (220090000, 173220000)
+[board_modifier.py:98]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:85]: Setting D67 footprint position: (239140000, 173220000)
+[board_modifier.py:98]: Getting SW13 footprint position: (266700000, 38100000)
+[board_modifier.py:85]: Setting D71 footprint position: (258190000, 173220000)
+[board_modifier.py:98]: Getting SW14 footprint position: (285750000, 38100000)
+[board_modifier.py:85]: Setting D79 footprint position: (277240000, 173220000)
+[board_modifier.py:98]: Getting SW15 footprint position: (304800000, 38100000)
+[board_modifier.py:85]: Setting D85 footprint position: (296290000, 173220000)
+[board_modifier.py:98]: Getting SW16 footprint position: (323850000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (315340000, 173220000)
+[board_modifier.py:98]: Getting SW17 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting D8 footprint position: (29590000, 192270000)
+[board_modifier.py:98]: Getting SW18 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting D14 footprint position: (48640000, 192270000)
+[board_modifier.py:98]: Getting SW19 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting D20 footprint position: (67690000, 192270000)
+[board_modifier.py:98]: Getting SW20 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting D26 footprint position: (86740000, 192270000)
+[board_modifier.py:98]: Getting SW21 footprint position: (114300000, 57150000)
+[board_modifier.py:85]: Setting D32 footprint position: (105790000, 192270000)
+[board_modifier.py:98]: Getting SW22 footprint position: (133350000, 57150000)
+[board_modifier.py:85]: Setting D38 footprint position: (124840000, 192270000)
+[board_modifier.py:98]: Getting SW23 footprint position: (152400000, 57150000)
+[board_modifier.py:85]: Setting D44 footprint position: (143890000, 192270000)
+[board_modifier.py:98]: Getting SW24 footprint position: (171450000, 57150000)
+[board_modifier.py:85]: Setting D50 footprint position: (162940000, 192270000)
+[board_modifier.py:98]: Getting SW25 footprint position: (190500000, 57150000)
+[board_modifier.py:85]: Setting D56 footprint position: (181990000, 192270000)
+[board_modifier.py:98]: Getting SW26 footprint position: (209550000, 57150000)
+[board_modifier.py:85]: Setting D62 footprint position: (201040000, 192270000)
+[board_modifier.py:98]: Getting SW27 footprint position: (228600000, 57150000)
+[board_modifier.py:85]: Setting D68 footprint position: (220090000, 192270000)
+[board_modifier.py:98]: Getting SW28 footprint position: (247650000, 57150000)
+[board_modifier.py:85]: Setting D72 footprint position: (239140000, 192270000)
+[board_modifier.py:98]: Getting SW29 footprint position: (266700000, 57150000)
+[board_modifier.py:85]: Setting D80 footprint position: (258190000, 192270000)
+[board_modifier.py:98]: Getting SW30 footprint position: (295275000, 57150000)
+[board_modifier.py:85]: Setting D86 footprint position: (286765000, 192270000)
+[board_modifier.py:98]: Getting SW31 footprint position: (323850000, 57150000)
+[board_modifier.py:85]: Setting D3 footprint position: (315340000, 192270000)
+[board_modifier.py:98]: Getting SW32 footprint position: (42862500, 76200000)
+[board_modifier.py:85]: Setting D9 footprint position: (34352500, 211320000)
+[board_modifier.py:98]: Getting SW33 footprint position: (66675000, 76200000)
+[board_modifier.py:85]: Setting D15 footprint position: (58165000, 211320000)
+[board_modifier.py:98]: Getting SW34 footprint position: (85725000, 76200000)
+[board_modifier.py:85]: Setting D21 footprint position: (77215000, 211320000)
+[board_modifier.py:98]: Getting SW35 footprint position: (104775000, 76200000)
+[board_modifier.py:85]: Setting D27 footprint position: (96265000, 211320000)
+[board_modifier.py:98]: Getting SW36 footprint position: (123825000, 76200000)
+[board_modifier.py:85]: Setting D33 footprint position: (115315000, 211320000)
+[board_modifier.py:98]: Getting SW37 footprint position: (142875000, 76200000)
+[board_modifier.py:85]: Setting D39 footprint position: (134365000, 211320000)
+[board_modifier.py:98]: Getting SW38 footprint position: (161925000, 76200000)
+[board_modifier.py:85]: Setting D45 footprint position: (153415000, 211320000)
+[board_modifier.py:98]: Getting SW39 footprint position: (180975000, 76200000)
+[board_modifier.py:85]: Setting D51 footprint position: (172465000, 211320000)
+[board_modifier.py:98]: Getting SW40 footprint position: (200025000, 76200000)
+[board_modifier.py:85]: Setting D57 footprint position: (191515000, 211320000)
+[board_modifier.py:98]: Getting SW41 footprint position: (219075000, 76200000)
+[board_modifier.py:85]: Setting D63 footprint position: (210565000, 211320000)
+[board_modifier.py:98]: Getting SW42 footprint position: (238125000, 76200000)
+[board_modifier.py:85]: Setting D69 footprint position: (229615000, 211320000)
+[board_modifier.py:98]: Getting SW43 footprint position: (257175000, 76200000)
+[board_modifier.py:85]: Setting D73 footprint position: (248665000, 211320000)
+[board_modifier.py:98]: Getting SW44 footprint position: (276225000, 76200000)
+[board_modifier.py:85]: Setting D81 footprint position: (267715000, 211320000)
+[board_modifier.py:98]: Getting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:85]: Setting D87 footprint position: (291527500, 211320000)
+[board_modifier.py:98]: Getting SW46 footprint position: (323850000, 76200000)
+[board_modifier.py:85]: Setting D4 footprint position: (315340000, 211320000)
+[board_modifier.py:98]: Getting SW47 footprint position: (45243750, 95250000)
+[board_modifier.py:85]: Setting D10 footprint position: (36733750, 230370000)
+[board_modifier.py:98]: Getting SW48 footprint position: (71437500, 95250000)
+[board_modifier.py:85]: Setting D16 footprint position: (62927500, 230370000)
+[board_modifier.py:98]: Getting SW49 footprint position: (90487500, 95250000)
+[board_modifier.py:85]: Setting D22 footprint position: (81977500, 230370000)
+[board_modifier.py:98]: Getting SW50 footprint position: (109537500, 95250000)
+[board_modifier.py:85]: Setting D28 footprint position: (101027500, 230370000)
+[board_modifier.py:98]: Getting SW51 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting D34 footprint position: (120077500, 230370000)
+[board_modifier.py:98]: Getting SW52 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting D40 footprint position: (139127500, 230370000)
+[board_modifier.py:98]: Getting SW53 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting D46 footprint position: (158177500, 230370000)
+[board_modifier.py:98]: Getting SW54 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting D52 footprint position: (177227500, 230370000)
+[board_modifier.py:98]: Getting SW55 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting D58 footprint position: (196277500, 230370000)
+[board_modifier.py:98]: Getting SW56 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting D64 footprint position: (215327500, 230370000)
+[board_modifier.py:98]: Getting SW57 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting D70 footprint position: (234377500, 230370000)
+[board_modifier.py:98]: Getting SW58 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting D74 footprint position: (253427500, 230370000)
+[board_modifier.py:98]: Getting SW59 footprint position: (292893750, 95250000)
+[board_modifier.py:85]: Setting D82 footprint position: (284383750, 230370000)
+[board_modifier.py:98]: Getting SW60 footprint position: (323850000, 95250000)
+[board_modifier.py:85]: Setting D88 footprint position: (315340000, 230370000)
+[board_modifier.py:98]: Getting SW61 footprint position: (50006250, 114300000)
+[board_modifier.py:85]: Setting D5 footprint position: (41496250, 249420000)
+[board_modifier.py:98]: Getting SW62 footprint position: (80962500, 114300000)
+[board_modifier.py:85]: Setting D11 footprint position: (72452500, 249420000)
+[board_modifier.py:98]: Getting SW63 footprint position: (100012500, 114300000)
+[board_modifier.py:85]: Setting D17 footprint position: (91502500, 249420000)
+[board_modifier.py:98]: Getting SW64 footprint position: (119062500, 114300000)
+[board_modifier.py:85]: Setting D23 footprint position: (110552500, 249420000)
+[board_modifier.py:98]: Getting SW65 footprint position: (138112500, 114300000)
+[board_modifier.py:85]: Setting D29 footprint position: (129602500, 249420000)
+[board_modifier.py:98]: Getting SW66 footprint position: (157162500, 114300000)
+[board_modifier.py:85]: Setting D35 footprint position: (148652500, 249420000)
+[board_modifier.py:98]: Getting SW67 footprint position: (176212500, 114300000)
+[board_modifier.py:85]: Setting D41 footprint position: (167702500, 249420000)
+[board_modifier.py:98]: Getting SW68 footprint position: (195262500, 114300000)
+[board_modifier.py:85]: Setting D47 footprint position: (186752500, 249420000)
+[board_modifier.py:98]: Getting SW69 footprint position: (214312500, 114300000)
+[board_modifier.py:85]: Setting D53 footprint position: (205802500, 249420000)
+[board_modifier.py:98]: Getting SW70 footprint position: (233362500, 114300000)
+[board_modifier.py:85]: Setting D59 footprint position: (224852500, 249420000)
+[board_modifier.py:98]: Getting SW71 footprint position: (252412500, 114300000)
+[board_modifier.py:85]: Setting D65 footprint position: (243902500, 249420000)
+[board_modifier.py:98]: Getting SW72 footprint position: (278606250, 114300000)
+[board_modifier.py:85]: Setting D77 footprint position: (270096250, 249420000)
+[board_modifier.py:98]: Getting SW73 footprint position: (304800000, 114300000)
+[board_modifier.py:85]: Setting D75 footprint position: (296290000, 249420000)
+[board_modifier.py:98]: Getting SW74 footprint position: (323850000, 114300000)
+[board_modifier.py:85]: Setting D83 footprint position: (315340000, 249420000)
+[board_modifier.py:98]: Getting SW75 footprint position: (40481250, 133350000)
+[board_modifier.py:85]: Setting D89 footprint position: (31971250, 268470000)
+[board_modifier.py:98]: Getting SW76 footprint position: (64293750, 133350000)
+[board_modifier.py:85]: Setting D6 footprint position: (55783750, 268470000)
+[board_modifier.py:98]: Getting SW77 footprint position: (88106250, 133350000)
+[board_modifier.py:85]: Setting D12 footprint position: (79596250, 268470000)
+[board_modifier.py:98]: Getting SW78 footprint position: (159543750, 133350000)
+[board_modifier.py:85]: Setting D18 footprint position: (151033750, 268470000)
+[board_modifier.py:98]: Getting SW79 footprint position: (228600000, 133350000)
+[board_modifier.py:85]: Setting D24 footprint position: (220090000, 268470000)
+[board_modifier.py:98]: Getting SW80 footprint position: (247650000, 133350000)
+[board_modifier.py:85]: Setting D30 footprint position: (239140000, 268470000)
+[board_modifier.py:98]: Getting SW81 footprint position: (266700000, 133350000)
+[board_modifier.py:85]: Setting D36 footprint position: (258190000, 268470000)
+[board_modifier.py:98]: Getting SW82 footprint position: (285750000, 133350000)
+[board_modifier.py:85]: Setting D42 footprint position: (277240000, 268470000)
+[board_modifier.py:98]: Getting SW83 footprint position: (304800000, 133350000)
+[board_modifier.py:85]: Setting D48 footprint position: (296290000, 268470000)
+[board_modifier.py:98]: Getting SW84 footprint position: (323850000, 133350000)
+[board_modifier.py:85]: Setting D54 footprint position: (315340000, 268470000)
+[board_modifier.py:98]: Getting SW85 footprint position: (63500000, -88730000)
+[board_modifier.py:85]: Setting D60 footprint position: (54990000, 46390000)
+[board_modifier.py:98]: Getting SW86 footprint position: (63500000, -73640000)
+[board_modifier.py:85]: Setting D66 footprint position: (54990000, 61480000)
+[board_modifier.py:98]: Getting SW87 footprint position: (63500000, -58550000)
+[board_modifier.py:85]: Setting D78 footprint position: (54990000, 76570000)
+[board_modifier.py:98]: Getting SW88 footprint position: (63500000, -43460000)
+[board_modifier.py:85]: Setting D76 footprint position: (54990000, 91660000)
+[board_modifier.py:98]: Getting SW89 footprint position: (63500000, -28370000)
+[board_modifier.py:85]: Setting D84 footprint position: (54990000, 106750000)
+[board_modifier.py:98]: Getting SW90 footprint position: (63500000, -13280000)
+[board_modifier.py:85]: Setting D90 footprint position: (54990000, 121840000)
+[board_modifier.py:98]: Getting SW97 footprint position: (-13080000, 5070000)
+[board_modifier.py:85]: Setting D106 footprint position: (-21590000, 140190000)
+[key_placer.py:775]: Placing additional elements for SW97
+[board_modifier.py:98]: Getting SW97 footprint position: (-13080000, 5070000)
+[board_modifier.py:75]: Searching for optional ST97 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW90
+[board_modifier.py:98]: Getting SW90 footprint position: (63500000, -13280000)
+[board_modifier.py:75]: Searching for optional ST90 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW89
+[board_modifier.py:98]: Getting SW89 footprint position: (63500000, -28370000)
+[board_modifier.py:75]: Searching for optional ST89 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW88
+[board_modifier.py:98]: Getting SW88 footprint position: (63500000, -43460000)
+[board_modifier.py:75]: Searching for optional ST88 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW87
+[board_modifier.py:98]: Getting SW87 footprint position: (63500000, -58550000)
+[board_modifier.py:75]: Searching for optional ST87 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW86
+[board_modifier.py:98]: Getting SW86 footprint position: (63500000, -73640000)
+[board_modifier.py:75]: Searching for optional ST86 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW85
+[board_modifier.py:98]: Getting SW85 footprint position: (63500000, -88730000)
+[board_modifier.py:75]: Searching for optional ST85 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW84
+[board_modifier.py:98]: Getting SW84 footprint position: (323850000, 133350000)
+[board_modifier.py:75]: Searching for optional ST84 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW83
+[board_modifier.py:98]: Getting SW83 footprint position: (304800000, 133350000)
+[board_modifier.py:75]: Searching for optional ST83 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW82
+[board_modifier.py:98]: Getting SW82 footprint position: (285750000, 133350000)
+[board_modifier.py:75]: Searching for optional ST82 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW81
+[board_modifier.py:98]: Getting SW81 footprint position: (266700000, 133350000)
+[board_modifier.py:75]: Searching for optional ST81 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW80
+[board_modifier.py:98]: Getting SW80 footprint position: (247650000, 133350000)
+[board_modifier.py:75]: Searching for optional ST80 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW79
+[board_modifier.py:98]: Getting SW79 footprint position: (228600000, 133350000)
+[board_modifier.py:75]: Searching for optional ST79 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW78
+[board_modifier.py:98]: Getting SW78 footprint position: (159543750, 133350000)
+[board_modifier.py:75]: Searching for optional ST78 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW77
+[board_modifier.py:98]: Getting SW77 footprint position: (88106250, 133350000)
+[board_modifier.py:75]: Searching for optional ST77 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW76
+[board_modifier.py:98]: Getting SW76 footprint position: (64293750, 133350000)
+[board_modifier.py:75]: Searching for optional ST76 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW75
+[board_modifier.py:98]: Getting SW75 footprint position: (40481250, 133350000)
+[board_modifier.py:75]: Searching for optional ST75 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW74
+[board_modifier.py:98]: Getting SW74 footprint position: (323850000, 114300000)
+[board_modifier.py:75]: Searching for optional ST74 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW73
+[board_modifier.py:98]: Getting SW73 footprint position: (304800000, 114300000)
+[board_modifier.py:75]: Searching for optional ST73 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW72
+[board_modifier.py:98]: Getting SW72 footprint position: (278606250, 114300000)
+[board_modifier.py:75]: Searching for optional ST72 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW71
+[board_modifier.py:98]: Getting SW71 footprint position: (252412500, 114300000)
+[board_modifier.py:75]: Searching for optional ST71 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW70
+[board_modifier.py:98]: Getting SW70 footprint position: (233362500, 114300000)
+[board_modifier.py:75]: Searching for optional ST70 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW69
+[board_modifier.py:98]: Getting SW69 footprint position: (214312500, 114300000)
+[board_modifier.py:75]: Searching for optional ST69 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW68
+[board_modifier.py:98]: Getting SW68 footprint position: (195262500, 114300000)
+[board_modifier.py:75]: Searching for optional ST68 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW67
+[board_modifier.py:98]: Getting SW67 footprint position: (176212500, 114300000)
+[board_modifier.py:75]: Searching for optional ST67 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW66
+[board_modifier.py:98]: Getting SW66 footprint position: (157162500, 114300000)
+[board_modifier.py:75]: Searching for optional ST66 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW65
+[board_modifier.py:98]: Getting SW65 footprint position: (138112500, 114300000)
+[board_modifier.py:75]: Searching for optional ST65 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW64
+[board_modifier.py:98]: Getting SW64 footprint position: (119062500, 114300000)
+[board_modifier.py:75]: Searching for optional ST64 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW63
+[board_modifier.py:98]: Getting SW63 footprint position: (100012500, 114300000)
+[board_modifier.py:75]: Searching for optional ST63 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW62
+[board_modifier.py:98]: Getting SW62 footprint position: (80962500, 114300000)
+[board_modifier.py:75]: Searching for optional ST62 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW61
+[board_modifier.py:98]: Getting SW61 footprint position: (50006250, 114300000)
+[board_modifier.py:75]: Searching for optional ST61 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW60
+[board_modifier.py:98]: Getting SW60 footprint position: (323850000, 95250000)
+[board_modifier.py:75]: Searching for optional ST60 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW59
+[board_modifier.py:98]: Getting SW59 footprint position: (292893750, 95250000)
+[board_modifier.py:75]: Searching for optional ST59 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW58
+[board_modifier.py:98]: Getting SW58 footprint position: (261937500, 95250000)
+[board_modifier.py:75]: Searching for optional ST58 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW57
+[board_modifier.py:98]: Getting SW57 footprint position: (242887500, 95250000)
+[board_modifier.py:75]: Searching for optional ST57 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW56
+[board_modifier.py:98]: Getting SW56 footprint position: (223837500, 95250000)
+[board_modifier.py:75]: Searching for optional ST56 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW55
+[board_modifier.py:98]: Getting SW55 footprint position: (204787500, 95250000)
+[board_modifier.py:75]: Searching for optional ST55 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW54
+[board_modifier.py:98]: Getting SW54 footprint position: (185737500, 95250000)
+[board_modifier.py:75]: Searching for optional ST54 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW53
+[board_modifier.py:98]: Getting SW53 footprint position: (166687500, 95250000)
+[board_modifier.py:75]: Searching for optional ST53 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW52
+[board_modifier.py:98]: Getting SW52 footprint position: (147637500, 95250000)
+[board_modifier.py:75]: Searching for optional ST52 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW51
+[board_modifier.py:98]: Getting SW51 footprint position: (128587500, 95250000)
+[board_modifier.py:75]: Searching for optional ST51 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW50
+[board_modifier.py:98]: Getting SW50 footprint position: (109537500, 95250000)
+[board_modifier.py:75]: Searching for optional ST50 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW49
+[board_modifier.py:98]: Getting SW49 footprint position: (90487500, 95250000)
+[board_modifier.py:75]: Searching for optional ST49 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW48
+[board_modifier.py:98]: Getting SW48 footprint position: (71437500, 95250000)
+[board_modifier.py:75]: Searching for optional ST48 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW47
+[board_modifier.py:98]: Getting SW47 footprint position: (45243750, 95250000)
+[board_modifier.py:75]: Searching for optional ST47 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW46
+[board_modifier.py:98]: Getting SW46 footprint position: (323850000, 76200000)
+[board_modifier.py:75]: Searching for optional ST46 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW45
+[board_modifier.py:98]: Getting SW45 footprint position: (300037500, 76200000)
+[board_modifier.py:75]: Searching for optional ST45 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW44
+[board_modifier.py:98]: Getting SW44 footprint position: (276225000, 76200000)
+[board_modifier.py:75]: Searching for optional ST44 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW43
+[board_modifier.py:98]: Getting SW43 footprint position: (257175000, 76200000)
+[board_modifier.py:75]: Searching for optional ST43 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW42
+[board_modifier.py:98]: Getting SW42 footprint position: (238125000, 76200000)
+[board_modifier.py:75]: Searching for optional ST42 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW41
+[board_modifier.py:98]: Getting SW41 footprint position: (219075000, 76200000)
+[board_modifier.py:75]: Searching for optional ST41 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW40
+[board_modifier.py:98]: Getting SW40 footprint position: (200025000, 76200000)
+[board_modifier.py:75]: Searching for optional ST40 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW39
+[board_modifier.py:98]: Getting SW39 footprint position: (180975000, 76200000)
+[board_modifier.py:75]: Searching for optional ST39 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW38
+[board_modifier.py:98]: Getting SW38 footprint position: (161925000, 76200000)
+[board_modifier.py:75]: Searching for optional ST38 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW37
+[board_modifier.py:98]: Getting SW37 footprint position: (142875000, 76200000)
+[board_modifier.py:75]: Searching for optional ST37 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW36
+[board_modifier.py:98]: Getting SW36 footprint position: (123825000, 76200000)
+[board_modifier.py:75]: Searching for optional ST36 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW35
+[board_modifier.py:98]: Getting SW35 footprint position: (104775000, 76200000)
+[board_modifier.py:75]: Searching for optional ST35 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (85725000, 76200000)
+[board_modifier.py:75]: Searching for optional ST34 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (66675000, 76200000)
+[board_modifier.py:75]: Searching for optional ST33 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (42862500, 76200000)
+[board_modifier.py:75]: Searching for optional ST32 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (323850000, 57150000)
+[board_modifier.py:75]: Searching for optional ST31 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (295275000, 57150000)
+[board_modifier.py:75]: Searching for optional ST30 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (266700000, 57150000)
+[board_modifier.py:75]: Searching for optional ST29 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (247650000, 57150000)
+[board_modifier.py:75]: Searching for optional ST28 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (228600000, 57150000)
+[board_modifier.py:75]: Searching for optional ST27 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW26
+[board_modifier.py:98]: Getting SW26 footprint position: (209550000, 57150000)
+[board_modifier.py:75]: Searching for optional ST26 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (190500000, 57150000)
+[board_modifier.py:75]: Searching for optional ST25 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (171450000, 57150000)
+[board_modifier.py:75]: Searching for optional ST24 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (152400000, 57150000)
+[board_modifier.py:75]: Searching for optional ST23 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (133350000, 57150000)
+[board_modifier.py:75]: Searching for optional ST22 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (114300000, 57150000)
+[board_modifier.py:75]: Searching for optional ST21 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional ST20 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (76200000, 57150000)
+[board_modifier.py:75]: Searching for optional ST19 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional ST18 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional ST17 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (323850000, 38100000)
+[board_modifier.py:75]: Searching for optional ST16 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (304800000, 38100000)
+[board_modifier.py:75]: Searching for optional ST15 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (285750000, 38100000)
+[board_modifier.py:75]: Searching for optional ST14 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (266700000, 38100000)
+[board_modifier.py:75]: Searching for optional ST13 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (247650000, 38100000)
+[board_modifier.py:75]: Searching for optional ST12 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (228600000, 38100000)
+[board_modifier.py:75]: Searching for optional ST11 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (209550000, 38100000)
+[board_modifier.py:75]: Searching for optional ST10 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (190500000, 38100000)
+[board_modifier.py:75]: Searching for optional ST9 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (171450000, 38100000)
+[board_modifier.py:75]: Searching for optional ST8 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (152400000, 38100000)
+[board_modifier.py:75]: Searching for optional ST7 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (133350000, 38100000)
+[board_modifier.py:75]: Searching for optional ST6 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (114300000, 38100000)
+[board_modifier.py:75]: Searching for optional ST5 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional ST4 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional ST3 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in D:\HackClub Projects\SnakeBoard\PCB\SnakeBoard.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:458]: Removing dangling tracks
