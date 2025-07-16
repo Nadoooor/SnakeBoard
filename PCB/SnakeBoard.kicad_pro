@@ -486,10 +486,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Assests/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SnakeBoard.step",
       "svg": "",
       "vrml": ""
     },
