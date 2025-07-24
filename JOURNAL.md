@@ -27,4 +27,5 @@ Worked on improveing the case and enhancing its apperance and it is all now done
 I loved my name so much it is so cool on the case. I learned how to make a in context part studio so i can edit my case while i see my keyswitches locartion to add the holes.
 <img width="856" height="798" alt="250723_22h12m43s_screenshot" src="https://github.com/user-attachments/assets/2f88c2f2-9bbf-4440-bffa-6925b3c1494f" />
 <img width="1119" height="933" alt="250723_21h27m36s_screenshot" src="https://github.com/user-attachments/assets/26036f8b-289c-4940-b86c-3344602099d2" />
+The Onshape Doc: [DOC](https://cad.onshape.com/documents/902611e8b9feae564de8d9eb/w/ee044899b2f02c71afc87682/e/73f01ff6e236a97137583ab3)<br>
 ## Total hours: 7 hours
