@@ -13,7 +13,8 @@ I made this project to improve my cad skills and pcb designing skills. Also, i n
 <img width="833" height="527" alt="image" src="https://github.com/user-attachments/assets/7f01c5e1-b9da-4ad6-99a5-532a5e3b16af" />
 
 ### Final Case:
-<img width="1119" height="933" alt="image" src="https://github.com/user-attachments/assets/04a32728-b2db-49a9-8f80-f8eaa859d83f" />
+<img width="997" height="754" alt="image" src="https://github.com/user-attachments/assets/31e7da3c-d4e6-4810-b17e-165fdab823b3" />
+
 
 ## BOM for SnakeBoard:
 | Part name                                               | link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | price  |
