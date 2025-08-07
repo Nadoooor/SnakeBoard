@@ -4,7 +4,7 @@ author: "Nader Sayed"
 description: "A mechanical keyboard with cool screen and rotary encoders and more..."
 created_at: "2025-06-12"
 ---
-#Total hours spent on this project: 23 Hours.
+# Total hours spent on this project: 23 Hours.
 # 30/6/2025
 I have made the schematic and finished it. search for the key switches and where to buy them to add them to the BOM.
 ![alt text](image.png)
