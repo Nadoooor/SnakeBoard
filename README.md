@@ -1,6 +1,7 @@
 # SnakeBoard
 It is a custom keycool84 size keyboard with dual oled screens and a rotary encoder.<br>
 I made this project to improve my cad skills and pcb designing skills. Also, i need a good keyboard to write my homework with.<br>
+The Onshape Doc: [DOC](https://cad.onshape.com/documents/902611e8b9feae564de8d9eb/w/ee044899b2f02c71afc87682/e/73f01ff6e236a97137583ab3?renderMode=0&uiState=688221b8a27d1511c8890300)<br>
 
 ## Photos:
 ### Schematic:
